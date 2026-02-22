@@ -2,7 +2,7 @@
 
 JaviClicker is a Java auto-clicker that performs left mouse clicks at a user-defined Clicks Per Second (CPS), simulating human-like behavior.
 
-Features
+## Features
 
 Simulates left mouse clicks using java.awt.Robot.
 
@@ -18,13 +18,13 @@ Keyboard shortcut (CTRL + K) to start/stop clicking.
 
 Simple Swing GUI with background image and custom icon.
 
-Requirements
+## Requirements
 
 Java 8 or higher.
 
 GUI support (Swing and AWT).
 
-Usage
+## Usage
 
 Run the program.
 
@@ -36,7 +36,7 @@ The program waits 3 seconds and starts clicking automatically.
 
 Press STOP or CTRL + K again to stop.
 
-How It Works
+## How It Works
 
 The delay between clicks is calculated as:
 
@@ -47,7 +47,8 @@ A ±30% random variation is applied to simulate human behavior.
 Every 40 clicks, a random micro-pause between 80–200 ms is added.
 
 Clicking is executed in a separate thread using java.awt.Robot.
-Notes
+
+## Notes
 
 Use responsibly; some applications or games may prohibit automation tools.
 
